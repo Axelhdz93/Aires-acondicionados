@@ -17,10 +17,10 @@ const Services = () => {
                 <p className='text-slate-600 mt-1'>Soluciones completas para tu minisplit en La Paz</p>
             </div>
 
-            <div className='col-span-full grid grid-cols-2 gap-4 place-items-center w-full mt-6 md:grid-cols-3' >
+            <div className='col-span-full grid grid-cols-2 gap-6 place-items-center w-full mt-6 md:grid-cols-3' >
 
                 <Reveal>
-                <div className='flex flex-col items-center justify-center text-center w-44 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
+                <div className='flex flex-col items-center justify-center text-center w-40 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
                     <BsFillWrenchAdjustableCircleFill className='text-3xl! text-orange-500 mb-2' /> 
                     <h4 className="font-bold text-slate-800"> Instalación </h4> 
                     <p className="text-sm text-slate-600 mt-1"> Instalamos minisplit nuevo con garantía. </p> 
@@ -28,7 +28,7 @@ const Services = () => {
                 </Reveal>
 
                 <Reveal>
-                <div className='flex flex-col items-center justify-center text-center w-44 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
+                <div className='flex flex-col items-center justify-center text-center w-40 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
                     <GrHostMaintenance className='text-3xl! text-blue-800 mb-2'  /> 
                     <h4 className="font-bold text-slate-800"> Mantenimiento </h4> 
                     <p className="text-sm text-slate-600 mt-1">Limpieza profunda, revisión de gas, filtros y rendimiento óptimo.</p> 
@@ -36,7 +36,7 @@ const Services = () => {
                 </Reveal>
 
                 <Reveal>
-                <div className='flex flex-col items-center justify-center text-center w-44 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
+                <div className='flex flex-col items-center justify-center text-center w-40 min-h-44 p-2 bg-white rounded-2xl md:w-48 md:min-h-48' > 
                     <FaScrewdriverWrench className='text-3xl! text-orange-500 mb-2'  /> 
                     <h4 className="font-bold text-slate-800"> Reparación </h4> 
                     <p className="text-sm text-slate-600 mt-1"> Diagnóstico rápido y reparación de fallas. </p> 
@@ -44,7 +44,7 @@ const Services = () => {
                 </Reveal>
             
                 {/* imagenes de minisplit */}
-                <div className='col-span-full grid grid-cols-2 gap-4 w-full text-center mt-4' > 
+                <div className='col-span-full flex flex-col gap-4 w-full text-center mt-4 md:grid md:grid-cols-2' > 
 
                     
                     <div className='w-full min-h-48 bg-[url("/img/rusty.jpg")] bg-cover bg-center bg-no-repeat bg-white p-4 rounded-xl flex flex-col justify-start' >
